@@ -95,7 +95,7 @@ const energyConsumers = [laptop1, laptop2, teapot1];
 
 let totalPower = 0;
 
-// Расчет суммарной мощности в зависимости включенных устройств
+// Расчет суммарной мощности в зависимости от включенных устройств
 for (let device of energyConsumers) {
   device.getPower();
   if (device.plug) {
